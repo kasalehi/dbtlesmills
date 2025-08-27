@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: keyvan
-    database: db
+    database: dev
     schema: myschm
     tables:
       - name: customers
