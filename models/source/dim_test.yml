@@ -1,0 +1,11 @@
+version: 2
+
+
+models:
+  - name: dim_data
+    columns: 
+      - name: customerid
+        tests:
+          - not_null
+          - unique
+    
