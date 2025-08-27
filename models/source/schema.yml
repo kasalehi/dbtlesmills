@@ -7,5 +7,15 @@ sources:
     schema: myschm
     tables:
       - name: customers
+        columns: 
+          - name: customerid
+            tests:
+              - not_null
+              - unique
       - name: orders
+        columns: 
+          - name: orderid
+            tests:
+              - not_null
+              - unique
       
