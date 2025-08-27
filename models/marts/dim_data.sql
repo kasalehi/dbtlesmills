@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 select
-  c.name,
+  c.EMAIL,
   o.*
 from {{ ref('customerdata') }} as c
 left join {{ ref('orderdata') }} as o
